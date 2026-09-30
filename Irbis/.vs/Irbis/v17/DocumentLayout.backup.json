@@ -1,0 +1,606 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dmitri\\Desktop\\Irbis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\reportspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\reportspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\reportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\reportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\nomenclaturespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\nomenclaturespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\customerspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\customerspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|c:\\users\\dmitri\\desktop\\irbis\\irbis\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\salespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\salespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\appdata\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\appdata\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\supplierspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\supplierspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\salespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\salespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\customerspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\customerspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\arrivalspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\arrivalspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\nomenclaturespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\nomenclaturespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\supplierspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\supplierspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\arrivalspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\arrivalspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\appdata\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\appdata\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\appdata\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\appdata\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\appdata\\nav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\appdata\\nav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\addeditcustomers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\addeditcustomers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\stockbalancepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\stockbalancepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\stockbalancepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\stockbalancepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\addeditsalepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\addeditsalepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\addeditsupplierpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\addeditsupplierpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\addeditnomenclaturepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\addeditnomenclaturepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\addeditcustomers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\addeditcustomers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\addeditarrivalpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\addeditarrivalpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\addeditarrivalpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\addeditarrivalpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\addeditsalepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\addeditsalepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\addeditnomenclaturepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\addeditnomenclaturepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|C:\\Users\\Dmitri\\Desktop\\Irbis\\irbis\\pages\\addeditsupplierpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79868E57-6089-4F21-B969-055D71050852}|Irbis\\Irbis.csproj|solutionrelative:irbis\\pages\\addeditsupplierpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SalesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\SalesPage.xaml",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\SalesPage.xaml",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\SalesPage.xaml",
+              "RelativeToolTip": "Irbis\\Pages\\SalesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-01T14:07:20.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Irbis\\Pages\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAnwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T12:54:26.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\CustomersPage.xaml.cs",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\CustomersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\CustomersPage.xaml.cs",
+              "RelativeToolTip": "Irbis\\Pages\\CustomersPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T13:45:32.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\ReportsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\ReportsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\ReportsPage.xaml.cs",
+              "RelativeToolTip": "Irbis\\Pages\\ReportsPage.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA6wB4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T12:24:42.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Connect.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\AppData\\Connect.cs",
+              "RelativeDocumentMoniker": "Irbis\\AppData\\Connect.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\AppData\\Connect.cs",
+              "RelativeToolTip": "Irbis\\AppData\\Connect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T12:47:55.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NomenclaturesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\NomenclaturesPage.xaml",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\NomenclaturesPage.xaml",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\NomenclaturesPage.xaml",
+              "RelativeToolTip": "Irbis\\Pages\\NomenclaturesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-01T13:30:27.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ArrivalsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\ArrivalsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\ArrivalsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\ArrivalsPage.xaml.cs",
+              "RelativeToolTip": "Irbis\\Pages\\ArrivalsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T14:05:28.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\ReportsPage.xaml",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\ReportsPage.xaml",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\ReportsPage.xaml",
+              "RelativeToolTip": "Irbis\\Pages\\ReportsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-02T12:23:50.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\CustomersPage.xaml",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\CustomersPage.xaml",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\CustomersPage.xaml",
+              "RelativeToolTip": "Irbis\\Pages\\CustomersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-01T13:41:38.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\App.xaml",
+              "RelativeDocumentMoniker": "Irbis\\App.xaml",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\App.xaml",
+              "RelativeToolTip": "Irbis\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-02T12:01:26.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\App.config",
+              "RelativeDocumentMoniker": "Irbis\\App.config",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\App.config",
+              "RelativeToolTip": "Irbis\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-06-01T15:34:41.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Irbis\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Irbis\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAjwBwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T12:31:56.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\AppData\\Users.cs",
+              "RelativeDocumentMoniker": "Irbis\\AppData\\Users.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\AppData\\Users.cs",
+              "RelativeToolTip": "Irbis\\AppData\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T13:00:11.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\AppData\\Model1.edmx",
+              "RelativeDocumentMoniker": "Irbis\\AppData\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\AppData\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Irbis\\AppData\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-06-02T12:58:47.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Irbis\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\App.xaml.cs",
+              "RelativeToolTip": "Irbis\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T12:55:15.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Nav.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\AppData\\Nav.cs",
+              "RelativeDocumentMoniker": "Irbis\\AppData\\Nav.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\AppData\\Nav.cs",
+              "RelativeToolTip": "Irbis\\AppData\\Nav.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T12:48:54.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NomenclaturesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\NomenclaturesPage.xaml.cs",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\NomenclaturesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\NomenclaturesPage.xaml.cs",
+              "RelativeToolTip": "Irbis\\Pages\\NomenclaturesPage.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T13:31:41.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SuppliersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\SuppliersPage.xaml",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\SuppliersPage.xaml",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\SuppliersPage.xaml",
+              "RelativeToolTip": "Irbis\\Pages\\SuppliersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-01T13:39:15.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "Irbis\\Pages\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-02T12:53:41.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SalesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\SalesPage.xaml.cs",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\SalesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\SalesPage.xaml.cs",
+              "RelativeToolTip": "Irbis\\Pages\\SalesPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T14:08:15.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SuppliersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\SuppliersPage.xaml.cs",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\SuppliersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\SuppliersPage.xaml.cs",
+              "RelativeToolTip": "Irbis\\Pages\\SuppliersPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T13:39:57.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ArrivalsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\ArrivalsPage.xaml",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\ArrivalsPage.xaml",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\ArrivalsPage.xaml",
+              "RelativeToolTip": "Irbis\\Pages\\ArrivalsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-01T14:04:07.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "Irbis\\Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwB8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T13:27:46.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "Irbis\\Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-01T13:26:14.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Irbis\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\MainWindow.xaml",
+              "RelativeToolTip": "Irbis\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-01T12:31:59.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddEditCustomers.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditCustomers.xaml",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\AddEditCustomers.xaml",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditCustomers.xaml",
+              "RelativeToolTip": "Irbis\\Pages\\AddEditCustomers.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-01T13:53:57.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AddEditSupplierPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditSupplierPage.xaml.cs",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\AddEditSupplierPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditSupplierPage.xaml.cs",
+              "RelativeToolTip": "Irbis\\Pages\\AddEditSupplierPage.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwCkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T13:41:15.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StockBalancePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\StockBalancePage.xaml",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\StockBalancePage.xaml",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\StockBalancePage.xaml",
+              "RelativeToolTip": "Irbis\\Pages\\StockBalancePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-01T14:10:15.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "StockBalancePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\StockBalancePage.xaml.cs",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\StockBalancePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\StockBalancePage.xaml.cs",
+              "RelativeToolTip": "Irbis\\Pages\\StockBalancePage.xaml.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAjwDYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T14:10:50.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AddEditNomenclaturePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditNomenclaturePage.xaml.cs",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\AddEditNomenclaturePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditNomenclaturePage.xaml.cs",
+              "RelativeToolTip": "Irbis\\Pages\\AddEditNomenclaturePage.xaml.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAUwH0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T13:33:42.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AddEditSalePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditSalePage.xaml",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\AddEditSalePage.xaml",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditSalePage.xaml",
+              "RelativeToolTip": "Irbis\\Pages\\AddEditSalePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-01T14:08:41.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AddEditSupplierPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditSupplierPage.xaml",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\AddEditSupplierPage.xaml",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditSupplierPage.xaml",
+              "RelativeToolTip": "Irbis\\Pages\\AddEditSupplierPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-01T13:40:37.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AddEditArrivalPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditArrivalPage.xaml.cs",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\AddEditArrivalPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditArrivalPage.xaml.cs",
+              "RelativeToolTip": "Irbis\\Pages\\AddEditArrivalPage.xaml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAiwEoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T14:06:54.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AddEditSalePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditSalePage.xaml.cs",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\AddEditSalePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditSalePage.xaml.cs",
+              "RelativeToolTip": "Irbis\\Pages\\AddEditSalePage.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T14:09:10.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AddEditCustomers.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditCustomers.xaml.cs",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\AddEditCustomers.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditCustomers.xaml.cs",
+              "RelativeToolTip": "Irbis\\Pages\\AddEditCustomers.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T13:47:55.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AddEditNomenclaturePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditNomenclaturePage.xaml",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\AddEditNomenclaturePage.xaml",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditNomenclaturePage.xaml",
+              "RelativeToolTip": "Irbis\\Pages\\AddEditNomenclaturePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-01T13:32:58.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AddEditArrivalPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditArrivalPage.xaml",
+              "RelativeDocumentMoniker": "Irbis\\Pages\\AddEditArrivalPage.xaml",
+              "ToolTip": "C:\\Users\\Dmitri\\Desktop\\Irbis\\Irbis\\Pages\\AddEditArrivalPage.xaml",
+              "RelativeToolTip": "Irbis\\Pages\\AddEditArrivalPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-01T14:05:54.775Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

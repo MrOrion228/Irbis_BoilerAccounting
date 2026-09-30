@@ -1,0 +1,70 @@
+﻿<Page x:Class="Irbis.Pages.SalesPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Irbis.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Продажа котлов">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="5">
+            <Button x:Name="AddBtn" Content="Добавить" Width="80" Margin="5" Click="AddBtn_Click" Background="#FF0D99AB"/>
+            <Button  Content="Изменить" Width="80" Margin="5" Click="EditBtn_Click" Background="#FF0D99AB"/>
+            <Button x:Name="DeleteBtn" Content="Удалить" Width="80" Margin="5" Click="DeleteBtn_Click" Background="#FFC73B3B"/>
+            <Separator Width="10" Visibility="Collapsed"/>
+            <Button Content="Первая" Width="60" Margin="2" Click="First_Click" Background="#FF0D99AB"/>
+            <Button Content="Предыдущая" Width="80" Margin="2" Click="Prev_Click" Background="#FF0D99AB"/>
+            <Button Content="Следующая" Width="80" Margin="2" Click="Next_Click" Background="#FF0D99AB"/>
+            <Button Content="Последняя" Width="60" Margin="2" Click="Last_Click" Background="#FF0D99AB"/>
+            <Separator Width="10" Visibility="Collapsed"/>
+            <Button Content="Назад" Width="80" Margin="5" Click="BackBtn_Click" Background="#FFC73B3B"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="5" Background="LightGray">
+            <TextBlock Text="Поиск:" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtSearch" Width="150" Margin="5" TextChanged="txtSearch_TextChanged"/>
+            <TextBlock Text="Покупатель:" VerticalAlignment="Center"/>
+            <ComboBox x:Name="cmbCustomer" Width="150" Margin="5" DisplayMemberPath="Name" SelectedValuePath="ID"/>
+            <TextBlock Text="Дата с:" VerticalAlignment="Center"/>
+            <DatePicker x:Name="dpStart" Margin="5"/>
+            <TextBlock Text="по:" VerticalAlignment="Center"/>
+            <DatePicker x:Name="dpEnd" Margin="5"/>
+            <Button Content="Применить" Margin="5" Padding="5,2" Click="ApplyBtn_Click"/>
+            <Button Content="Сбросить" Margin="5" Padding="5,2" Click="ResetFiltersBtn_Click"/>
+        </StackPanel>
+
+        <DataGrid x:Name="dgSales" Grid.Row="2" AutoGenerateColumns="False" 
+                  IsReadOnly="True" SelectionMode="Single" Margin="5">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Дата" Binding="{Binding Date}" Width="Auto"/>
+                <DataGridTextColumn Header="Котёл" Binding="{Binding Boiler}" Width="3*"/>
+                <DataGridTextColumn Header="Кол-во" Binding="{Binding Quantity}" Width="Auto"/>
+                <DataGridTextColumn Header="Цена продажи" Binding="{Binding SalePrice}" Width="Auto"/>
+                <DataGridTextColumn Header="Покупатель" Binding="{Binding CustomerName}" Width="2*"/>
+                <DataGridTextColumn Header="Сумма" Binding="{Binding Total}" Width="Auto"/>
+                <DataGridTemplateColumn Header="Действие" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Изменить" Click="EditBtn_Click" Tag="{Binding}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="5">
+            <TextBlock Text="Запись:" Margin="5,0"/>
+            <TextBlock x:Name="txtCurrentRecord" Margin="5,0"/>
+            <TextBlock Text="из" Margin="5,0"/>
+            <TextBlock x:Name="txtTotalRecords" Margin="5,0"/>
+        </StackPanel>
+    </Grid>
+</Page>

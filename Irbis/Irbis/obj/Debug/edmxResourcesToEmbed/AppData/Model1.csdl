@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Arrivals">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="NomenclatureID" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="PurchasePrice" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="SupplierID" Type="Int32" Nullable="false" />
+    <Property Name="Total" Type="Decimal" Precision="29" Scale="2" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="Nomenclatures" Relationship="Self.FK_Arrivals_Nomenclatures" FromRole="Arrivals" ToRole="Nomenclatures" />
+    <NavigationProperty Name="Suppliers" Relationship="Self.FK_Arrivals_Suppliers" FromRole="Arrivals" ToRole="Suppliers" />
+  </EntityType>
+  <EntityType Name="AutomationTypes">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Nomenclatures" Relationship="Self.FK_Nomenclatures_AutomationTypes" FromRole="AutomationTypes" ToRole="Nomenclatures" />
+  </EntityType>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Contact" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Sales" Relationship="Self.FK_Sales_Customers" FromRole="Customers" ToRole="Sales" />
+  </EntityType>
+  <EntityType Name="Models">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Power" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <NavigationProperty Name="Nomenclatures" Relationship="Self.FK_Nomenclatures_Models" FromRole="Models" ToRole="Nomenclatures" />
+  </EntityType>
+  <EntityType Name="Nomenclatures">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ModelID" Type="Int32" Nullable="false" />
+    <Property Name="AutomationTypeID" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <NavigationProperty Name="Arrivals" Relationship="Self.FK_Arrivals_Nomenclatures" FromRole="Nomenclatures" ToRole="Arrivals" />
+    <NavigationProperty Name="AutomationTypes" Relationship="Self.FK_Nomenclatures_AutomationTypes" FromRole="Nomenclatures" ToRole="AutomationTypes" />
+    <NavigationProperty Name="Models" Relationship="Self.FK_Nomenclatures_Models" FromRole="Nomenclatures" ToRole="Models" />
+    <NavigationProperty Name="Sales" Relationship="Self.FK_Sales_Nomenclatures" FromRole="Nomenclatures" ToRole="Sales" />
+  </EntityType>
+  <EntityType Name="Sales">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="NomenclatureID" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="SalePrice" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="CustomerID" Type="Int32" Nullable="false" />
+    <Property Name="Total" Type="Decimal" Precision="29" Scale="2" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="Customers" Relationship="Self.FK_Sales_Customers" FromRole="Sales" ToRole="Customers" />
+    <NavigationProperty Name="Nomenclatures" Relationship="Self.FK_Sales_Nomenclatures" FromRole="Sales" ToRole="Nomenclatures" />
+  </EntityType>
+  <EntityType Name="Suppliers">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Contact" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Arrivals" Relationship="Self.FK_Arrivals_Suppliers" FromRole="Suppliers" ToRole="Arrivals" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Role" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Arrivals_Nomenclatures">
+    <End Role="Nomenclatures" Type="Self.Nomenclatures" Multiplicity="1" />
+    <End Role="Arrivals" Type="Self.Arrivals" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nomenclatures">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Arrivals">
+        <PropertyRef Name="NomenclatureID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Arrivals_Suppliers">
+    <End Role="Suppliers" Type="Self.Suppliers" Multiplicity="1" />
+    <End Role="Arrivals" Type="Self.Arrivals" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Suppliers">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Arrivals">
+        <PropertyRef Name="SupplierID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Nomenclatures_AutomationTypes">
+    <End Role="AutomationTypes" Type="Self.AutomationTypes" Multiplicity="1" />
+    <End Role="Nomenclatures" Type="Self.Nomenclatures" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AutomationTypes">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Nomenclatures">
+        <PropertyRef Name="AutomationTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_Customers">
+    <End Role="Customers" Type="Self.Customers" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Nomenclatures_Models">
+    <End Role="Models" Type="Self.Models" Multiplicity="1" />
+    <End Role="Nomenclatures" Type="Self.Nomenclatures" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Models">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Nomenclatures">
+        <PropertyRef Name="ModelID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_Nomenclatures">
+    <End Role="Nomenclatures" Type="Self.Nomenclatures" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nomenclatures">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="NomenclatureID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Arrivals" EntityType="Self.Arrivals" />
+    <EntitySet Name="AutomationTypes" EntityType="Self.AutomationTypes" />
+    <EntitySet Name="Customers" EntityType="Self.Customers" />
+    <EntitySet Name="Models" EntityType="Self.Models" />
+    <EntitySet Name="Nomenclatures" EntityType="Self.Nomenclatures" />
+    <EntitySet Name="Sales" EntityType="Self.Sales" />
+    <EntitySet Name="Suppliers" EntityType="Self.Suppliers" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK_Arrivals_Nomenclatures" Association="Self.FK_Arrivals_Nomenclatures">
+      <End Role="Nomenclatures" EntitySet="Nomenclatures" />
+      <End Role="Arrivals" EntitySet="Arrivals" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Arrivals_Suppliers" Association="Self.FK_Arrivals_Suppliers">
+      <End Role="Suppliers" EntitySet="Suppliers" />
+      <End Role="Arrivals" EntitySet="Arrivals" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Nomenclatures_AutomationTypes" Association="Self.FK_Nomenclatures_AutomationTypes">
+      <End Role="AutomationTypes" EntitySet="AutomationTypes" />
+      <End Role="Nomenclatures" EntitySet="Nomenclatures" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_Customers" Association="Self.FK_Sales_Customers">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Nomenclatures_Models" Association="Self.FK_Nomenclatures_Models">
+      <End Role="Models" EntitySet="Models" />
+      <End Role="Nomenclatures" EntitySet="Nomenclatures" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_Nomenclatures" Association="Self.FK_Sales_Nomenclatures">
+      <End Role="Nomenclatures" EntitySet="Nomenclatures" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

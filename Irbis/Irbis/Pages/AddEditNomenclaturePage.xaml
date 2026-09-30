@@ -1,0 +1,18 @@
+﻿<Page x:Class="Irbis.Pages.AddEditNomenclaturePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Номенклатура">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="350">
+        <TextBlock Text="Модель" Margin="5"/>
+        <ComboBox x:Name="cmbModel" Margin="5"/>
+
+        <TextBlock Text="Тип автоматики" Margin="5"/>
+        <ComboBox x:Name="cmbAutomation" Margin="5"/>
+
+        <TextBlock Text="Цена (₽)" Margin="5"/>
+        <TextBox x:Name="txtPrice" Margin="5"/>
+
+        <Button Content="Сохранить" Margin="5" Click="SaveBtn_Click" Background="#FF0D99AB"/>
+        <Button Content="Отмена" Margin="5" Click="BackBtn_Click" Background="#FFC73B3B"/>
+    </StackPanel>
+</Page>

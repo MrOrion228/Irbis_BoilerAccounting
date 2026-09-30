@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="44b7e3934c424279b0ca4db6dd740092" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Arrivals" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.AutomationTypes" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Customers" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Models" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Nomenclatures" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Sales" Width="1.5" PointX="8.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Suppliers" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Users" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_Arrivals_Nomenclatures" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Arrivals_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Nomenclatures_AutomationTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Sales_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Nomenclatures_Models" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Sales_Nomenclatures" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

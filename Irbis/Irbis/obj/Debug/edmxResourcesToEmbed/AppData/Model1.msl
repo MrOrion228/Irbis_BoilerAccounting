@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ModelContainer" CdmEntityContainer="Entities1">
+    <EntitySetMapping Name="Arrivals">
+      <EntityTypeMapping TypeName="Model.Arrivals">
+        <MappingFragment StoreEntitySet="Arrivals">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="NomenclatureID" ColumnName="NomenclatureID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="PurchasePrice" ColumnName="PurchasePrice" />
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AutomationTypes">
+      <EntityTypeMapping TypeName="Model.AutomationTypes">
+        <MappingFragment StoreEntitySet="AutomationTypes">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="Model.Customers">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Models">
+      <EntityTypeMapping TypeName="Model.Models">
+        <MappingFragment StoreEntitySet="Models">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Power" ColumnName="Power" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nomenclatures">
+      <EntityTypeMapping TypeName="Model.Nomenclatures">
+        <MappingFragment StoreEntitySet="Nomenclatures">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ModelID" ColumnName="ModelID" />
+          <ScalarProperty Name="AutomationTypeID" ColumnName="AutomationTypeID" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sales">
+      <EntityTypeMapping TypeName="Model.Sales">
+        <MappingFragment StoreEntitySet="Sales">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="NomenclatureID" ColumnName="NomenclatureID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="SalePrice" ColumnName="SalePrice" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers">
+      <EntityTypeMapping TypeName="Model.Suppliers">
+        <MappingFragment StoreEntitySet="Suppliers">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Model.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
